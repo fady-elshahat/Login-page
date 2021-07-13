@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="Css/all.min.css">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="Css/style.css">
+     <title>Sign In & Up</title>
+     <link rel="icon" href="SVG/lock.svg">
+</head>
+<body>
+     <div class="container">
+          <div class="form-control">
+               <div class="signIn-signUp">
+                    <div class="form sign-in-form">
+                         <h2 class="titel">Sign in</h2>
+                         <div class="input-field">
+                              <i class="fas fa-user"></i>
+                              <input id="userEmailIn" type="email" placeholder="Email">
+                         </div>
+                         <div class="input-field">
+                              <i class="fas fa-lock"></i>
+                              <input id="userPassIn" type="password" placeholder="Password">
+                              <button id="eye1"><i class="look fas fa-eye"></i></button>
+                         </div>
+                         <span id="alert"></span>
+                         <a class="btn solid" id="logInBtn" type="submit" value="Login">login</a>
+                         <p class="social-text">Our Sign in With Social Media</p>
+                         <div class="social-media">
+                              <a href="#" class="social-icon">
+                                   <i class="fab fa-facebook-f"></i>
+                              </a>
+                              <a href="#" class="social-icon">
+                                   <i class="fab fa-twitter"></i>
+                              </a>
+                              <a href="#" class="social-icon">
+                                   <i class="fab fa-google"></i>
+                              </a>
+                              <a href="#" class="social-icon">
+                                   <i class="fab fa-linkedin-in"></i>
+                              </a>
+                         </div>
+                    </div>
+                    <div class="form sign-up-form">
+                         <h2 class="titel">Sign up</h2>
+                         <div class="input-field">
+                              <i class="fas fa-user"></i>
+                              <input id="userNameUp" type="text" placeholder="Username">
+                         </div>
+                         <div class="input-field">
+                              <i class="fas fa-envelope"></i>
+                              <input id="userEmailUp" type="email" placeholder="Email">
+                         </div>
+                         <div class="input-field">
+                              <i class="fas fa-lock"></i>
+                              <input id="userPassUp" type="password" placeholder="Password"><button id="eye"><i class="look fas fa-eye"></i></button>
+                         </div>
+                         <span id="exist"></span>
+                         <button class="btn" id="btnUp" type="submit" value="Sign up">Sign up</button>
+                         <p class="social-text">Our Sign uo With Social Media</p>
+                         <div class="social-media">
+                              <a href="#" class="social-icon">
+                                   <i class="fab fa-facebook-f"></i>
+                              </a>
+                              <a href="#" class="social-icon">
+                                   <i class="fab fa-twitter"></i>
+                              </a>
+                              <a href="#" class="social-icon">
+                                   <i class="fab fa-google"></i>
+                              </a>
+                              <a href="#" class="social-icon">
+                                   <i class="fab fa-linkedin-in"></i>
+                              </a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+          <div class="panel-control">
+               <div class="panel left-panel">
+                    <div class="content">
+                         <h3>New here ?</h3>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ut sapiente officiis
+                         , sunt quibusdam aliquam.
+                         </p>
+                         <button class="btn trans" id="sign-up-btn">sign up</button>
+                    </div>
+                    <img src="SVG/undraw_maker_launch_crhe.svg" alt="Svg" class="image">
+               </div>
+
+               <div class="panel right-panel">
+                    <div class="content">
+                         <h3>One of us ?</h3>
+                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum ut sapiente officiis
+                         , sunt quibusdam aliquam.
+                         </p>
+                         <button class="btn trans" id="sign-in-btn">sign in</button>
+                    </div>
+                    <img src="SVG/undraw_press_play_bx2d.svg" alt="Svg" class="image">
+               </div>
+          </div>
+     </div>
+     <script src="main.js"></script>
+</body>
+</html>
